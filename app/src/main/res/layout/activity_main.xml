@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="#AEE5FF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <TextView
+            android:id="@+id/result_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定位功能已准备就绪！您现在可点击\n\n“开始定位”\n\n获取您当前的所在位置"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="开始定位"
+        android:textSize="18sp"
+        android:padding="18dp"
+        android:layout_weight="1"
+        android:onClick="click01"/>
+
+</LinearLayout>
